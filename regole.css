@@ -1,0 +1,633 @@
+html,body {
+  height: 100%; margin: 0px; padding: 0px; }
+
+#navbar {
+  margin-bottom:0; }
+
+.alert {
+  border-radius: 0; }
+
+.container {
+  width:100%;
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: auto;
+  margin-left: auto; }
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, 
+.col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, 
+.col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, 
+.col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, 
+.col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, 
+.col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, 
+.col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, 
+.col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, 
+.col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, 
+.col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, 
+.col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, 
+.col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+  position: relative;
+  height:100%;
+  min-height: 1px;
+  padding-right: 0;
+  padding-left: 0; }
+
+.row {
+  margin-right: 0;
+  margin-left: 0; }
+
+.footer {
+  margin-top: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  border-top: none; }
+
+.panel {
+  border:none; }
+
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+
+
+/*FIRSTNAV*/
+
+
+li.left {
+   position: relative;
+   float: left;
+   font-weight: bold;
+   height: 100%;} 
+
+li.right {
+   position: relative;
+   float: right;
+   font-weight: bold;}
+
+.firstnav li a {
+     
+    padding: 0 15px;
+    color:rgba(255,255,255,.6);
+    font-size: 15px;
+    text-decoration: none;}
+
+.ulfirstnav {
+      list-style-type: none;
+      background-color: black;
+      height: 30px;
+      line-height: 30px;}
+
+@media screen and (max-width: 813px) {
+    .firstnav {
+      display: none;
+    }}
+
+/*SECONDNAV*/
+
+.secondnav li a {
+     
+    padding: 0 15px;
+    color:#AAA;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: Shentox,sans-serif;
+    font-weight: 500;}
+
+.ulsecondnav {
+    list-style-type: none;
+    background-color: white;
+    height: 50px;
+    line-height: 50px;}
+
+.lente{
+    border-left: 1px solid #EEE; }
+
+.ulsecondnav .fa {
+    font-size: 20px; }
+
+@media screen and (max-width: 813px) {
+    .secondnav {
+      display: none;
+    }}
+
+/*MAIN ARTICLES*/
+
+.allmainarticles {
+    height: 500px;
+    width: 100%;
+    border-top: 6px solid lightgrey;
+  }
+
+.mainarticle{
+    float: left;
+    height: 500px;
+    width: 66.6666%;
+    border:6px solid white;
+    border-bottom: none;
+    border-top: none;
+    
+  } @media screen and (max-width: 840px) {
+    .mainarticle {
+      width: 100%;
+      height: 200px;
+    }}
+
+.mediumarticleone{
+    float: right;
+    height: 250px;
+    width: 33.3333%;
+    border-right:6px solid white;
+} @media screen and (max-width: 840px) {
+    .mediumarticleone {
+      border-top: 6px solid white;
+      width: 100%;
+      height: 200px;
+    }}
+
+.mediumarticletwo{
+    float: right;
+    height: 250px;
+    width: 33.3333%;
+    border-right:6px solid white;
+    border-top:6px solid white;
+  } @media screen and (max-width: 840px) {
+    .mediumarticletwo {
+
+      width: 100%;
+      height: 200px;
+    }}
+
+
+
+
+
+.imgprincipal {
+    width: 100%;
+    height: 100%;
+    background: -moz-linear-gradient(-45deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 100%),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/08/Terminator-3-540x270.jpg") no-repeat;;
+    background: -webkit-linear-gradient(-45deg, rgba(255,255,255,0) 0%,rgba(0,0,0,1) 100%),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/08/Terminator-3-540x270.jpg") no-repeat;;
+    background: linear-gradient(135deg, rgba(255,255,255,0) 0%,rgba(0,0,0,1) 100%),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/08/Terminator-3-540x270.jpg") no-repeat;;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#000000',GradientType=1 );
+    background-size: cover;
+    position: relative;
+}
+
+.imgprincipaldos {
+    width: 100%;
+    height: 100%;
+    background: -moz-linear-gradient(-45deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 100%),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/08/Terminator-3-540x270.jpg") no-repeat;;
+    background: -webkit-linear-gradient(-45deg, rgba(255,255,255,0) 0%,rgba(0,0,0,1) 100%),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/08/Terminator-3-540x270.jpg") no-repeat;;
+    background: linear-gradient(135deg, rgba(255,255,255,0) 0%,rgba(0,0,0,1) 100%),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/09/mobilewebspecialist-480x270.jpg") no-repeat;;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#000000',GradientType=1 );
+    background-size: cover;
+    position: relative;
+}
+
+.imgprincipaltres {
+    width: 100%;
+    height: 100%;
+    background: -moz-linear-gradient(-45deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 100%),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/08/Terminator-3-540x270.jpg") no-repeat;;
+    background: -webkit-linear-gradient(-45deg, rgba(255,255,255,0) 0%,rgba(0,0,0,1) 100%),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/08/Terminator-3-540x270.jpg") no-repeat;;
+    background: linear-gradient(135deg, rgba(255,255,255,0) 0%,rgba(0,0,0,1) 100%),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/09/Uganda-Porn-Detector-Machine-540x270.jpg") no-repeat;;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#000000',GradientType=1 );
+    background-size: cover;
+    position: relative;
+}
+
+.maintitle {
+  font-weight: bold;
+  position: absolute;  
+  /*How can I position my div at the bottom of its container?
+  https://stackoverflow.com/questions/526035/how-can-i-position-my-div-at-the-bottom-of-its-container
+  https://css-tricks.com/snippets/css/sticky-footer/*/
+  bottom: 0;
+  font-size: 56px;
+  color: white;
+  padding-left: 2.5%;
+  padding-bottom: 5%;
+} @media screen and (max-width: 840px) {
+    .maintitle {
+      font-size: 26px;
+    }}
+
+.maintitledos {
+  font-weight: bold;
+  position: absolute;
+  bottom: 0;
+  font-size: 30px;
+  color: white;
+  padding-left: 2.5%;
+  padding-bottom: 7%;
+} @media screen and (max-width: 840px) {
+    .maintitledos {
+      font-size: 26px;
+    }}
+
+.topwrite {
+  font-weight: bold;
+  font-size: 156px;
+  color: white;
+  padding-left: 2.5%;
+
+} @media screen and (max-width: 1112px) {
+    .topwrite {
+      display: none;
+    }}
+
+.smallwritedate {
+  
+  font-size: 16px;
+  color: white;
+  float: right;
+  position: relative;
+  bottom: 30%;
+  right: 3%;
+
+} 
+
+.articledetails li {
+  
+  display: inline;
+  color: rgba(255,255,255,.6);
+
+} 
+
+.articledetails {
+  
+  font-size: 16px;
+  position: absolute;
+  bottom: 0;
+  padding-left: 3%;
+  padding-bottom: 2%;
+
+} 
+
+/*ALLARTICLES*/
+
+.articlecontainer{
+    clear: both;
+    margin-right: 15%;
+    margin-left: 15%;
+    
+    
+} @media screen and (max-width: 840px) {
+    .articlecontainer {
+      margin: 0;
+    }}
+ 
+/*ARTICLESFIRSTLINE*/
+
+.articlesfirtsline{
+      height: 20%;} 
+@media screen and (max-width: 840px) {
+    .articlesfirtsline {
+      height: 10%;
+    }}
+
+.images {
+    display: block;
+    width:90%; 
+    position: relative; 
+    left:5%;   
+    max-height: 116.547px;
+    height: 110px;
+
+} @media screen and (max-width: 840px) {
+    .images {
+      width: 72px;
+      height: 72px;
+      float: left;
+      left: 3%;
+    }}
+
+h3.articlestitle{ 
+    color:rgb(255, 68, 34);
+    font-size: 28px;
+    font-weight: bold;
+    position: relative; 
+    left:1.1%;  
+    
+}
+
+.didascalia{ 
+   position: relative;
+   left:5%;
+   width: 90%;
+   font-size: 20px;
+   font-weight: bold;
+}  @media screen and (max-width: 840px) {
+    .didascalia {
+      position: relative;
+      font-size: 17px;
+      width: 70%;
+      float: left;
+      margin-right: 1%;
+
+    }}
+
+    
+
+@media screen and (max-width: 840px) {
+    .spaziatura {
+       padding-bottom: 5%;
+    }}
+
+
+.autore li {
+  
+  display: inline;
+  color: #AAA;
+  float: left;
+  position: relative;
+  left: 5%;
+
+} 
+
+.autore {
+  
+  font-size: 16px;
+  padding-left: 3%;
+  padding-bottom: 2%;
+
+} 
+
+/*ARTICLESSECONDLINE*/
+
+
+
+
+
+.didascaliados { 
+   position: relative;
+   color: white;
+   top: 67%;
+   left: 2%;
+   font-size: 20px;
+   font-weight: bold;
+} @media screen and (max-width: 1184px) {
+    .didascaliados {
+      top:80%;
+      left:3%;
+    }} @media screen and (max-width: 840px) {
+    .didascaliados {
+      top:75%;
+    }} 
+ 
+
+.col-threeone {
+    /*qua sotto e' la maniera di mettere un gradiente sopra una immagine di background. gradiente creato con il tool che trovi su google*/
+    background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 100%),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/09/Twitter-Night-Hed-368x276.jpg") no-repeat;
+    background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(0,0,0,1) 100%),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/09/Twitter-Night-Hed-368x276.jpg") no-repeat;
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(0,0,0,1) 100%),url("./angryrobot-796x400.jpg") no-repeat;
+    /*come vedi quello che conta e' l ultimo alla fine, i primi due non so bene a cosa servono */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#000000',GradientType=0 );
+    background-position: center;
+    background-size: cover;
+    width: 94%;
+    position: relative;
+    left: 3%;
+    height: 300px;
+}
+
+.col-threetwo {
+    /*qua sotto e' la maniera di mettere un gradiente sopra una immagine di background. gradiente creato con il tool che trovi su google*/
+    background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 100%),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/09/Twitter-Night-Hed-368x276.jpg") no-repeat;
+    background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(0,0,0,1) 100%),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/09/Twitter-Night-Hed-368x276.jpg") no-repeat;
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(0,0,0,1) 100%),url("justitia-2597016_1920-796x466.jpg") no-repeat;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#000000',GradientType=0 );
+    background-position: left;
+    background-size: cover;
+    width: 94%;
+    position: relative;
+    left: 3%;
+    height: 300px;
+}
+
+.col-threethree {
+    /*qua sotto e' la maniera di mettere un gradiente sopra una immagine di background. gradiente creato con il tool che trovi su google*/
+    background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 100%),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/09/Twitter-Night-Hed-368x276.jpg") no-repeat;
+    background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(0,0,0,1) 100%),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/09/Twitter-Night-Hed-368x276.jpg") no-repeat;
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(0,0,0,1) 100%),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/09/Twitter-Night-Hed-368x276.jpg") no-repeat;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#000000',GradientType=0 );
+    background-position: center;
+    background-size: cover;
+    width: 94%;
+    position: relative;
+    left: 3%;
+    height: 300px;
+}
+
+h3.articlestitledos{ 
+    color:rgb(255, 68, 34);
+    font-size: 28px;
+    font-weight: bold;
+    position: relative; 
+    left: 3.1%;
+    padding-bottom: 5%; 
+    
+}
+
+
+.sottoimmagine{ 
+    width: 94%;
+    height: 73.25px;
+    position: relative;
+    left: 3%;
+    bottom: 8%;
+    background-color: rgba(255,68,34,.06);  
+}
+
+
+.imgdestra { 
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/09/Michael-Kors-Access-Sofie-Grayson-2-of-4.jpg);
+    float: right;
+    background-position: center center;
+    background-size: cover;
+    height:95%;
+    width: 23%;
+    position: relative;
+    top:2.5%;
+    
+  
+}
+
+.didascaliatres { 
+    padding-left: 5%;
+    
+    color: #F42;
+    position: relative;
+    /* height: auto; */
+    top: 25%;
+}
+
+
+
+/*.articlessecondline div { 
+    padding-bottom: 20px;
+}*/
+
+
+
+
+/*FOOTER*/
+
+footer {  
+    position: relative;
+    background-color: rgb(19, 19, 19);
+    clear: both;
+    padding-top:3%;
+    margin-top: 5%;
+} 
+
+.footercontainer{ 
+   
+    
+    margin-left: 15%;
+    margin-right:15%;
+    
+
+    
+ 
+}
+
+.footertext{ 
+   
+   
+    color: white;
+    position: relative;
+    left: 3%;
+    top:5%;
+    font-size: 16px;
+    font-weight: 400;
+    color: #aaa;
+}
+
+.elenco { 
+   
+    font-size: 16px;
+    font-family: 'ARS Maquette','Helvetica Neue',Arial,sans-serif;
+    color: #f0f0f0;
+    line-height: 150%;
+    
+ 
+}
+
+
+.bottonifondo { 
+    margin-left: 15%;
+    margin-right:15%;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 3%;
+    
+
+ 
+}
+
+.bottonifondo .fa { 
+    background: #333;
+    border-radius: 50%;
+    padding: 12px;
+    text-align: center;
+    
+}
+
+.bottone { 
+   padding: 0.5%;
+    
+}  
+
+.links{ 
+  color: #AAA;
+  font-size: 16px;
+    
+}  
+
+.spanlink { 
+  padding: 0.5%;
+    
+}  
+
+.ultimofooter { 
+  height: 100px;
+  background-color: black;
+  line-height: 100px;
+    
+}  
+
+.pultimofooter { 
+  color: white;
+  text-align: center;
+  position: relative;
+
+    
+}  
+
+
+
+.clearfix:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+
+
+
+/*TNG LOGO - HIDDEN BAR*/
+
+
+.hiddenbar{ 
+   display: none;
+} @media screen and (max-width: 813px) {
+    .hiddenbar {
+      display: block;
+    }}
+
+.tnw { 
+   width:100px; /* you can use % */
+   height: auto;
+} 
+
+.hiddenbar .fa { 
+
+    height: 100%;
+    color: #F42;
+    padding: 16px;
+    width: 48px;
+    font-size: 30px;
+    margin-right: 12px;
+    border-left: 1px solid #EEE; 
+} 
+
