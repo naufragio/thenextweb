@@ -1,1 +1,1 @@
-https://github.com/naufragio/thenextweb/blob/master/MIO2/index.html
+https://naufragio.github.io/thenextweb/
